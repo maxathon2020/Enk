@@ -1,0 +1,61 @@
+<div id="nav">
+    <div><a href="#pickup" id="back"><i class="fas fa-arrow-left"></i></a></div>
+    <h1 id="sectiontitle">Book a pickup</h1>
+    <div></div>
+</div>
+<p>Chosen day: <b><span id="day-for-pickup"></span></b></p>
+<div id="hospitalDetails">
+    <div id="hospitalNameAddress">
+        <p><b>Azienda Ospedaliera Antonio Cardarelli </b></p>
+        <p>Via A. Cardarelli 9, 80131 Napoli</p>
+    </div>
+    <button class="btn2" id="infoButton" type="button">INFO</button>
+</div>
+<div id="dayChooser">
+    <p style="margin: auto"><b>Choose the time</b></p>
+    <div id="filterDays">
+        <button class="btn2 active" id="filterAllHours" type="button">All (11)</button>
+        <button class="btn2" id="filterAM" type="button">AM (6)</button>
+        <button class="btn2" id="filterPM" type="button">PM (5)</button>
+    </div>
+</div>
+<button class="btn btn-primary available-hour" id="0730" type="button">7:30</button>
+<button class="btn btn-primary available-hour" id="0830" type="button">8:30</button>
+<button class="btn btn-primary available-hour" id="0930" type="button">9:30</button>
+<button class="btn btn-primary available-hour" id="1030" type="button">10:30</button>
+<button class="btn btn-primary available-hour" id="1130" type="button">11:30</button>
+<button class="btn btn-primary available-hour" id="1230" type="button">12:30</button>
+<button class="btn btn-primary available-hour" id="1330" type="button">13:30</button>
+<button class="btn btn-primary available-hour" id="1430" type="button">14:30</button>
+<button class="btn btn-primary available-hour" id="1530" type="button">15:30</button>
+<button class="btn btn-primary available-hour" id="1630" type="button">16:30</button>
+<button class="btn btn-primary available-hour" id="1730" type="button">17:30</button>
+<div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="messageModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="messageModalLabel">Error</h5>
+                <?xml version="1.0"?>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+                <path xmlns="http://www.w3.org/2000/svg" style="" d="M256,0C115.3,0,0,115.3,0,256s115.3,256,256,256s256-115.3,256-256S396.7,0,256,0z" fill="#f40000" data-original="#ff3636" class=""/>
+                <path xmlns="http://www.w3.org/2000/svg" style="" d="M512,256c0,140.7-115.3,256-256,256V0C396.7,0,512,115.3,512,256z" fill="#f40000" data-original="#f40000" class=""/>
+                <polygon xmlns="http://www.w3.org/2000/svg" style="" points="298.299,256 383.2,340.901 340.901,383.2 256,298.299 171.099,383.2 128.8,340.901   213.701,256 128.8,171.099 171.099,128.8 256,213.701 340.901,128.8 383.2,171.099 " fill="#d3d3d8" data-original="#e7e7e7" class=""/>
+                <polygon xmlns="http://www.w3.org/2000/svg" style="" points="298.299,256 383.2,340.901 340.901,383.2 256,298.299 256,213.701 340.901,128.8   383.2,171.099 " fill="#d3d3d8" data-original="#d3d3d8" class=""/>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                </g></svg>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="messageModalContent" class="alert alert-success">
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>

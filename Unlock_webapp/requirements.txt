@@ -1,0 +1,7 @@
+webapp3
+jinja2
+firebase_admin
+google-cloud-firestore
+gunicorn
+pywebpush
+apscheduler

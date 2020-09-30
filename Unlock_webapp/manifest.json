@@ -1,0 +1,27 @@
+{
+"manifest_version": 1,
+"version": "1.0.0",
+"short_name": "UNLOCK",
+"name": "UNLOCK 4/90",
+"description": "Closer. Faster. Safer.",
+"icons": [
+{
+"src": "/static/img/900x900.svg",
+"sizes": "900x900",
+"purpose": "any",
+"type": "image/svg"
+},
+{
+"src": "/static/img/512x512.png",
+"sizes": "512x512",
+"purpose": "any maskable",
+"type": "image/png"
+}
+],
+"start_url": ".", 
+"lang": "it-IT",
+"background_color": "white",
+"theme_color": "#0048af",
+"display": "standalone",
+"orientation": "portrait-primary"
+}

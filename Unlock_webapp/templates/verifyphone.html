@@ -1,0 +1,48 @@
+<div id="nav">
+    <div><a href="#emailphonesignup" id="back"><i class="fas fa-arrow-left"></i></a></div>
+    <h1 id="sectiontitle">Verify phone</h1>
+    <div></div>
+</div>
+<div class="row">
+    <div class="col-md-10 col-lg-8 mx-auto">
+        <form action="/" method="post" id="verifyphoneForm" name="verifyphone" enctype="multipart/form-data">
+            <p>An activation code has been sent to the following phone number:  </p>
+            <p id="phone-awaiting-activation"></p>
+            <div class="control-group">
+                <p>Enter in the field below the code that has been sent to you via SMS:</p>
+                <div class="form-group floating-label-form-group controls"><label>Verification code</label><input class="form-control" type="text" id="smscode" name="smscode" placeholder="Verification code"><small class="form-text text-danger help-block"></small></div>
+            </div>
+            <div id="success"></div>
+            <div class="form-group"><button class="btn btn-primary btn-success" id="verifyphoneButton" type="submit">Verify</button></div>
+        </form>
+    </div>
+</div>
+<div class="modal fade" id="messageModal" tabindex="-1" role="dialog" aria-labelledby="messageModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="messageModalLabel">Error</h5>
+                <?xml version="1.0"?>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.com/svgjs" version="1.1" width="512" height="512" x="0" y="0" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g>
+                <path xmlns="http://www.w3.org/2000/svg" style="" d="M256,0C115.3,0,0,115.3,0,256s115.3,256,256,256s256-115.3,256-256S396.7,0,256,0z" fill="#f40000" data-original="#ff3636" class=""/>
+                <path xmlns="http://www.w3.org/2000/svg" style="" d="M512,256c0,140.7-115.3,256-256,256V0C396.7,0,512,115.3,512,256z" fill="#f40000" data-original="#f40000" class=""/>
+                <polygon xmlns="http://www.w3.org/2000/svg" style="" points="298.299,256 383.2,340.901 340.901,383.2 256,298.299 171.099,383.2 128.8,340.901   213.701,256 128.8,171.099 171.099,128.8 256,213.701 340.901,128.8 383.2,171.099 " fill="#d3d3d8" data-original="#e7e7e7" class=""/>
+                <polygon xmlns="http://www.w3.org/2000/svg" style="" points="298.299,256 383.2,340.901 340.901,383.2 256,298.299 256,213.701 340.901,128.8   383.2,171.099 " fill="#d3d3d8" data-original="#d3d3d8" class=""/>
+                <g xmlns="http://www.w3.org/2000/svg">
+                </g>
+                </g></svg>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div id="messageModalContent" class="alert alert-success">
+
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
