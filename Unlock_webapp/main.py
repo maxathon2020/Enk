@@ -203,7 +203,7 @@ class EmailPhoneSignupHandler(webapp3.RequestHandler):
             email_password = f.read()
 
             message = MIMEMultipart("alternative")
-            message["Subject"] = "Codice di verifica"
+            message["Subject"] = "Verification code"
             message["From"] = sender_email
             message["To"] = receiver_email
 
@@ -449,7 +449,7 @@ class NewPasswordHandler(webapp3.RequestHandler):
                                 email_password = f.read()
 
                                 message = MIMEMultipart("alternative")
-                                message["Subject"] = "Codice di verifica"
+                                message["Subject"] = "Verification code"
                                 message["From"] = sender_email
                                 message["To"] = receiver_email
 
