@@ -2,7 +2,7 @@
 The Enk system was built in occasion of the 2020 Maxonrow [MAXathon](https://hackathon.maxonrow.com/) by the Enk team.
 
 ## Requirements
-An Intel Edison Arduino board with a cross-compiled mraa ([TUTORIAL](https://github.com/eclipse/mraa/issues/303#issuecomment-145231175))is needed for this system to work.
+An Intel Edison Arduino board with a cross-compiled mraa ([TUTORIAL](https://github.com/eclipse/mraa/issues/303#issuecomment-145231175)) is needed for this system to work.
 ## The challenge
 
 > ### **Virtualizing the New Norm**
